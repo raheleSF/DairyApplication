@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".TaskActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_back"
+        android:layout_margin="40dp"
+        android:id="@+id/edt_title"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_disc"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edt_title"
+        android:layout_margin="30dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:layout_below="@id/edt_disc"
+        android:id="@+id/btn_time"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="70dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time:"
+        android:id="@+id/txt_timer"
+        android:layout_below="@id/btn_time"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+       />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Date"
+        android:id="@+id/btn_setdate"
+        android:layout_toRightOf="@id/btn_time"
+        android:layout_below="@id/edt_disc"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="50dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_selected"
+        android:text="date_selected"
+        android:layout_below="@+id/btn_setdate"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="250dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/btn_save"
+        android:layout_centerHorizontal= "true"
+        android:layout_marginTop="450dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_arrow_back_black_24dp" />
+
+
+</RelativeLayout>

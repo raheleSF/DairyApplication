@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Share"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="search"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/sort"
+        android:title="Sort"/>
+    <item android:id="@+id/edit_sub"
+        android:title="Edit Sub List"/>
+    <item android:id="@+id/dell_sub"
+        android:title="Delet Sub List"/>
+
+</menu>
